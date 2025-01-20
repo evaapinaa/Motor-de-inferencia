@@ -1,4 +1,4 @@
-# SBR-FC
+# Motor de inferencia, con encadenamiento hacia atrás y factores de certeza
 
 ## Archivos del Proyecto
 
