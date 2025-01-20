@@ -1,0 +1,10 @@
+7
+condAntigMay3, FC=1
+condAntig, FC=-1
+cond2-3, FC=1
+condMay3, FC=-1
+noSolo, FC=-1
+joven, FC=0.4
+bebeAlc, FC=0
+Objetivo
+causaAcc

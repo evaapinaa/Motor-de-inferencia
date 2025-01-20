@@ -1,0 +1,10 @@
+7
+Boulevard, FC=1
+BasketCase, FC=1
+AmericanIdiot, FC=0.8
+nostalgica, FC=1
+emocionada, FC=0.7
+noNimrod, FC=0.5
+tiempoNoTocar, FC=0.4
+Objetivo
+finGoodRiddance

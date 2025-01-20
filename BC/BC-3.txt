@@ -1,0 +1,8 @@
+7
+R1: Si condAntig Entonces condExp, FC=0.5
+R2: Si condAntigMay3 Entonces condExp, FC=0.9
+R3: Si cond2-3 Entonces cansado, FC=0.5
+R4: Si condMay3 Entonces cansado, FC=1
+R5: Si condExp y noSolo Entonces causaAcc, FC=-0.5
+R6: Si cansado Entonces causaAcc, FC=0.5
+R7: Si joven o bebeAlc Entonces causaAcc, FC=0.7

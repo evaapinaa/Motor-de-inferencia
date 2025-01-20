@@ -1,0 +1,7 @@
+6
+R1: Si Boulevard Entonces inicioFuerte, FC=0.9
+R2: Si BasketCase y AmericanIdiot Entonces energiaSolida, FC=0.85
+R3: Si nostalgica o emocionada Entonces buenDesarrollo, FC=0.5
+R4: Si inicioFuerte y energiaSolida Entonces buenDesarrollo, FC=1
+R5: Si buenDesarrollo Entonces finGoodRiddance, FC=0.9
+R6: Si noNimrod o tiempoNoTocar Entonces finGoodRiddance, FC=1

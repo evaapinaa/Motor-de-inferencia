@@ -1,0 +1,29 @@
+Base de conocimientos: BC-3.txt
+Base de hechos: BH-3.txt
+Objetivo: causaAcc
+
+R5: Si condExp y noSolo Entonces causaAcc, FC=-0.5
+R1: Si condAntig Entonces condExp, FC=0.5
+	Caso 1: condAntig, FC=-1. Resultado=-1
+	Caso 3: condExp, FC=-1 * 0.5 = 0
+R2: Si condAntigMay3 Entonces condExp, FC=0.9
+	Caso 1: condAntigMay3, FC=1. Resultado=1
+	Caso 3: condExp, FC=1 * 0.9 = 0.9
+	Caso 2: condExp, FC=0.9
+	Caso 1: condExp, FC=0.9 y noSolo, FC=-1. Resultado=-1
+	Caso 3: causaAcc, FC=-1 * -0.5 = -0
+R6: Si cansado Entonces causaAcc, FC=0.5
+R3: Si cond2-3 Entonces cansado, FC=0.5
+	Caso 1: cond2-3, FC=1. Resultado=1
+	Caso 3: cansado, FC=1 * 0.5 = 0.5
+R4: Si condMay3 Entonces cansado, FC=1
+	Caso 1: condMay3, FC=-1. Resultado=-1
+	Caso 3: cansado, FC=-1 * 1 = 0
+	Caso 2: cansado, FC=0.5
+	Caso 1: cansado, FC=0.5. Resultado=0.5
+	Caso 3: causaAcc, FC=0.5 * 0.5 = 0.25
+R7: Si joven o bebeAlc Entonces causaAcc, FC=0.7
+	Caso 1: joven, FC=0.4 o bebeAlc, FC=0. Resultado=0.4
+	Caso 3: causaAcc, FC=0.4 * 0.7 = 0.28
+	Caso 2: causaAcc, FC=0.46
+Objetivo: causaAcc, FC=0.46

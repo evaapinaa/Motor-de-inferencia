@@ -1,0 +1,27 @@
+Base de conocimientos: BC-A.txt
+Base de hechos: BH-A.txt
+Objetivo: finGoodRiddance
+
+R5: Si buenDesarrollo Entonces finGoodRiddance, FC=0.9
+R3: Si nostalgica o emocionada Entonces buenDesarrollo, FC=0.5
+	Caso 1: nostalgica, FC=1 o emocionada, FC=0.7. Resultado=1
+	Caso 3: buenDesarrollo, FC=1 * 0.5 = 0.5
+R4: Si inicioFuerte y energiaSolida Entonces buenDesarrollo, FC=1
+R1: Si Boulevard Entonces inicioFuerte, FC=0.9
+	Caso 1: Boulevard, FC=1. Resultado=1
+	Caso 3: inicioFuerte, FC=1 * 0.9 = 0.9
+	Caso 2: inicioFuerte, FC=0.9
+R2: Si BasketCase y AmericanIdiot Entonces energiaSolida, FC=0.85
+	Caso 1: BasketCase, FC=1 y AmericanIdiot, FC=0.8. Resultado=0.8
+	Caso 3: energiaSolida, FC=0.8 * 0.85 = 0.68
+	Caso 2: energiaSolida, FC=0.68
+	Caso 1: inicioFuerte, FC=0.9 y energiaSolida, FC=0.68. Resultado=0.68
+	Caso 3: buenDesarrollo, FC=0.68 * 1 = 0.68
+	Caso 2: buenDesarrollo, FC=0.84
+	Caso 1: buenDesarrollo, FC=0.84. Resultado=0.84
+	Caso 3: finGoodRiddance, FC=0.84 * 0.9 = 0.756
+R6: Si noNimrod o tiempoNoTocar Entonces finGoodRiddance, FC=1
+	Caso 1: noNimrod, FC=0.5 o tiempoNoTocar, FC=0.4. Resultado=0.5
+	Caso 3: finGoodRiddance, FC=0.5 * 1 = 0.5
+	Caso 2: finGoodRiddance, FC=0.878
+Objetivo: finGoodRiddance, FC=0.878
